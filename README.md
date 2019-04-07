@@ -2,7 +2,9 @@
 
 ### for the APPLE II computer by W SANDER 1/11/78
 
+
 ![screenshoot](startrek.bmp)
+
 
 This is the source code of one of the oldest game for the Apple II  
 and also one of the best text only STARTREK version one can play  
@@ -10,7 +12,7 @@ it features animations and sounds !
 
 The original source embeded a binary routine which was loaded at $3FA1 and was used to play various sounds effects :
 
-`
+```
 3FA1-   A0 32       LDY   #$32  
 3FA3-   A2 00       LDX   #$00  
 3FA5-   8A          TXA  
@@ -24,13 +26,13 @@ The original source embeded a binary routine which was loaded at $3FA1 and was u
 3FB3-   88          DEY  
 3FB4-   D0 ED       BNE   $3FA3  
 3FB6-   60          RTS  
-`
+```
 
 you can load it from the monitor using :  
 
-`
+```
 3FA1 : A0 32 A2 00 8A 18 E9 01 D0 FC 8D 30 C0 E8 E0 03 D0 F2 88 D0 ED 60  
-`
+```
 
 note : despite being able to running it, reinette-II does not support sound and linapple or applewin are recommended.
 
@@ -38,9 +40,9 @@ then return to basic by hitting CTRL-C and ENTER
 
 and type  
 
-`
+```
   HIMEM:16384  
-`
+```
 
 finally, copy paste the interger basic source code and type `RUN`  
 
@@ -48,7 +50,7 @@ finally, copy paste the interger basic source code and type `RUN`
 
 
 
-## from Apple II Reference Manual January 1978, page 3 :
+### from Apple II Reference Manual January 1978, page 3 :
 
 ```
 Running 16K Startrek
@@ -60,7 +62,7 @@ to set exactly where in memory this program is to run.
 ```
 
 
-##Apple II Reference Manual January 1978, page 14 :  
+### Apple II Reference Manual January 1978, page 14 :  
 
 ```
 
