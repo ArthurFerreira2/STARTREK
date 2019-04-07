@@ -43,8 +43,8 @@ First, you have to load it from the monitor (`CALL -151`) using :
 :01
 ```
 
-Then jump to basic by hitting `CTRL-B` and `ENTER` 
-Copy paste the INTERGER BASIC source code  
+Then jump to basic by hitting `CTRL-B` and `ENTER`  
+Copy paste the BASIC source code  
 and type `RUN`  
 
 
