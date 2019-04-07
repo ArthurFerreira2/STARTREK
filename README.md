@@ -11,8 +11,12 @@ This is the source code of one of the oldest game for the Apple II and also one 
 Needs the INTEGER BASIC ROMS.  
 **Note :** despite being able to run it, [reinette-II](https://github.com/ArthurFerreira2/reinette-II) does not support sound and [LinApple](https://github.com/linappleii/linapple) or [AppleWin](https://github.com/AppleWin/AppleWin) are recommended.
 
-The original source embeded a binary routine which was loaded at $3FA1  
-and was used to play various sounds effects :
+
+First type : `HIMEM: 16384`
+
+Then copy paste the INTERGER BASIC source code  
+
+The original source embeded a binary routine at $3FA1 to play various sounds effects :
 
 ```
 3FA1-   A0 32       LDY   #$32  
@@ -30,21 +34,13 @@ and was used to play various sounds effects :
 3FB6-   60          RTS  
 ```
 
-you can load it from the monitor (CALL -151) using :  
+Load it from the monitor `CALL -151` using :  
 
 ```
 3FA1 : A0 32 A2 00 8A 18 E9 01 D0 FC 8D 30 C0 E8 E0 03 D0 F2 88 D0 ED 60  
 ```
 
-
-Return to basic by hitting CTRL-C and ENTER and type  
-
-```
-  HIMEM:16384  
-```
-
-Then copy paste the interger basic source code  
-And finally type `RUN`  
+Then return to basic by hitting `CTRL-C` and `ENTER` and type `RUN`  
 
 
 
