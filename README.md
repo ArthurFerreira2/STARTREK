@@ -1,6 +1,6 @@
 # STARTREK
 
-### for the APPLE II computer by W SANDER 1/11/78
+### For the APPLE II computer by W SANDER, January 1978
 
 
 ![screenshoot](startrek.bmp)
@@ -10,7 +10,8 @@ This is the source code of one of the oldest game for the Apple II
 and also one of the best text only STARTREK version one can play  
 it features animations and sounds !
 
-The original source embeded a binary routine which was loaded at $3FA1 and was used to play various sounds effects :
+The original source embeded a binary routine which was loaded at $3FA1  
+and was used to play various sounds effects :
 
 ```
 3FA1-   A0 32       LDY   #$32  
@@ -34,23 +35,21 @@ you can load it from the monitor using :
 3FA1 : A0 32 A2 00 8A 18 E9 01 D0 FC 8D 30 C0 E8 E0 03 D0 F2 88 D0 ED 60  
 ```
 
-note : despite being able to running it, reinette-II does not support sound and linapple or applewin are recommended.
+**Note :** despite being able to running it, reinette-II does not support  
+sound and linapple or applewin are recommended.
 
-then return to basic by hitting CTRL-C and ENTER  
-
-and type  
+Return to basic by hitting CTRL-C and ENTER and type  
 
 ```
   HIMEM:16384  
 ```
 
-finally, copy paste the interger basic source code and type `RUN`  
+Then copy paste the interger basic source code  
+And finally type `RUN`  
 
 
 
-
-
-### from Apple II Reference Manual January 1978, page 3 :
+### From Apple II Reference Manual January 1978, page 3 :
 
 ```
 Running 16K Startrek
@@ -62,10 +61,9 @@ to set exactly where in memory this program is to run.
 ```
 
 
-### Apple II Reference Manual January 1978, page 14 :  
+### From Apple II Reference Manual January 1978, page 14 :  
 
 ```
-
 -.-.-.-.-.-.-.-.-.-   APPLE II STARTREK VERSION  -.-.-.-.-.-.-.-.-.-.-
 
              THIS IS A SHORT DESCRIPTION OF HOW TO PLAY STARTREK ON THE
@@ -148,6 +146,5 @@ to set exactly where in memory this program is to run.
                                     180
 -.-.-.-.-.-.-.- THIS EXPLANATION WAS WRITTEN BY ELWOOD -.-.-.-.-.-.-.-.-
                           NOT RESPONSIBLE FOR
-                                ERRORS
-           
+                                ERRORS        
 ```
