@@ -11,8 +11,8 @@ and also one of the best text only STARTREK version one can play
 it features animations and sounds !
 
 Needs the INTEGER BASIC ROMS.  
-**Note :** despite being able to running it, reinette-II does not support  
-sound and linapple or applewin are recommended.
+**Note :** despite being able to running it, [reinette-II](https://github.com/ArthurFerreira2/reinette-II)  does not support  
+sound and [LinApple](https://github.com/linappleii/linapple) or [AppleWin](https://github.com/AppleWin/AppleWin) are recommended.
 
 The original source embeded a binary routine which was loaded at $3FA1  
 and was used to play various sounds effects :
