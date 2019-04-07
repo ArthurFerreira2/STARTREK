@@ -10,6 +10,10 @@ This is the source code of one of the oldest game for the Apple II
 and also one of the best text only STARTREK version one can play  
 it features animations and sounds !
 
+Needs the INTEGER BASIC ROMS.  
+**Note :** despite being able to running it, reinette-II does not support  
+sound and linapple or applewin are recommended.
+
 The original source embeded a binary routine which was loaded at $3FA1  
 and was used to play various sounds effects :
 
@@ -29,14 +33,12 @@ and was used to play various sounds effects :
 3FB6-   60          RTS  
 ```
 
-you can load it from the monitor using :  
+you can load it from the monitor (CALL -151) using :  
 
 ```
 3FA1 : A0 32 A2 00 8A 18 E9 01 D0 FC 8D 30 C0 E8 E0 03 D0 F2 88 D0 ED 60  
 ```
 
-**Note :** despite being able to running it, reinette-II does not support  
-sound and linapple or applewin are recommended.
 
 Return to basic by hitting CTRL-C and ENTER and type  
 
