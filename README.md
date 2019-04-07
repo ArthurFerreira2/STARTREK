@@ -44,7 +44,7 @@ Then return to basic by hitting `CTRL-C` and `ENTER` and type `RUN`
 
 
 
-### From Apple II Reference Manual January 1978, page 3 :
+### From [Apple II Reference Manual January 1978, page 3](https://archive.org/details/Apple_II_Redbook/page/n5) :
 
 ```
 Running 16K Startrek
@@ -56,7 +56,7 @@ to set exactly where in memory this program is to run.
 ```
 
 
-### From Apple II Reference Manual January 1978, page 14 :  
+### From [Apple II Reference Manual January 1978, page 14](https://archive.org/details/Apple_II_Redbook/page/n16) :  
 
 ```
        -.-.-.-.-.-.-.-.-    APPLE II  STARTREK VERSION  -.-.-.-.-.-.-.-.-.-.-
