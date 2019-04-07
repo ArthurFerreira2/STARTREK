@@ -1,15 +1,15 @@
 # STARTREK
 
-## STARTREK for the APPLE II computer by W SANDER 1/11/78
+### for the APPLE II computer by W SANDER 1/11/78
 
-
+![screenshoot](startrek.bmp)
 
 This is the source code of one of the oldest game for the Apple II  
 and also one of the best text only STARTREK version one can play  
 it features animations and sounds !
 
 The original source embeded a binary routine which was loaded at $3FA1 and was used to play various sounds effects :
-
+`
 3FA1-   A0 32       LDY   #$32
 3FA3-   A2 00       LDX   #$00
 3FA5-   8A          TXA
@@ -23,20 +23,19 @@ The original source embeded a binary routine which was loaded at $3FA1 and was u
 3FB3-   88          DEY
 3FB4-   D0 ED       BNE   $3FA3
 3FB6-   60          RTS
-
+`
 you can load it from the monitor using :
-
+`
 3FA1 : A0 32 A2 00 8A 18 E9 01 D0 FC 8D 30 C0 E8 E0 03 D0 F2 88 D0 ED 60
-
+`
 note : despite being able to running it, reinette-II does not support sound and linapple or applewi$
-
 
 then return to basic by hiting CTRL-C and ENTER
 
 type
-
+`
   HIMEM:16384
-
+`
 and copy paste the interger basic source code
 
 
@@ -44,18 +43,18 @@ and copy paste the interger basic source code
 
 
 ##Apple II Reference Manual January 1978, page 3 :
-
+`
 Running 16K Startrek
 
 If you have 16K Bytes or larger memory in your Apple, you will also
 receive a "STARTREK" game tape. Load this program just as you did
 the previous two, but before you "RUN" it, type in "HIMEM: 16384"
 to set exactly where in memory this program is to run.
-
+`
 
 
 ##Apple II Reference Manual January 1978, page 14 :
-
+`
 
 -.-.-.-.-.-.-.-.-.-   APPLE II STARTREK VERSION  -.-.-.-.-.-.-.-.-.-.-
 
@@ -141,3 +140,4 @@ to set exactly where in memory this program is to run.
                           NOT RESPONSIBLE FOR
                                 ERRORS
            
+`
