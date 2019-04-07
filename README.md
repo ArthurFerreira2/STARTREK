@@ -44,7 +44,7 @@ First, you have to load it from the monitor (`CALL -151`) using :
 ```
 
 Then jump to basic by hitting `CTRL-B` and `ENTER`  
-Copy paste the BASIC source code  
+Copy and paste the BASIC source code  
 and type `RUN`  
 
 
