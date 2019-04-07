@@ -63,88 +63,91 @@ to set exactly where in memory this program is to run.
 
 ### From Apple II Reference Manual January 1978, page 14 :  
 
-```
--.-.-.-.-.-.-.-.-.-   APPLE II STARTREK VERSION  -.-.-.-.-.-.-.-.-.-.-
+***```
+       -.-.-.-.-.-.-.-.-    APPLE II  STARTREK VERSION  -.-.-.-.-.-.-.-.-.-.-
 
              THIS IS A SHORT DESCRIPTION OF HOW TO PLAY STARTREK ON THE
        APPLE COMPUTER.
          THE UNIVERSE IS MADE UP OF 64 QUADRANTS IN AN 8 BY 8 MATRIX.
-         THE QUADRANT IN WHICH YOU THE ENTERPRISE ' ARE, IS IN WHITE,
+         THE QUADRANT IN WHICH YOU 'THE ENTERPRISE ' ARE, IS IN WHITE,
          AND A BLOW UP OF THAT QUADRANT IS FOUND IN THE LOWER LEFT
-         CORNER. YOUR SPACE SHIP STATUS IS FOUND IN A TABLE TO
+         CORNER.   YOUR SPACE SHIP STATUS IS FOUND IN A TABLE TO
          THE RIGHT SIDE OF THE QUADRANT BLOW UP.
-           THIS IS A SEARCH AND DESTROY MISSION. THE OBJECT IS TO LONG-RANGE
-         SENSE FOR INFORMATION AS TO WHERE KLINGONS (K) ARE MOVE TO THAT QUADRANT,
-         AND DESTROY.
-             NUMBERS DISPLAYED FOR EACH QUADRANT DENOTE:
-                                    * OF STARS IN THE ONES PLACE
-                                    * OF BASES IN THE TENS PLACE
-                                    * OF KLINGONS IN THE HUNDREDS PLACE
+            THIS IS A SEARCH AND DESTROY MISSION.   THE OBJECT IS TO LONG-RANGE
+       SENSE FOR INFORMATION AS TO WHERE KLINGONS (K) ARE, MOVE TO THAT QUADRANT,
+       AND DESTROY.
+              NUMBERS DISPLAYED FOR EACH QUADRANT DENOTE:
+                                          * OF STARS IN THE ONES PLACE
+                                          * OF BASES IN THE TENS PLACE
+                                          * OF KLINGONS IN THE HUNDREDS PLACE
            AT ANY TIME DURING THE GAME, FOR INSTANCE BEFORE ONE TOTALLY
-         RUNS OUT OF ENERGY, OR NEEDS TO REGENERATE ALL SYSTEMS, ONE MOVES TO A
-         QUADRANT WHICH INCLUDES A BASE, IONS NEXT TO THAT BASE (B) AT WHICH TIME
-         THE BASE SELF-DESTRUCTS AND THE ENTERPRISE (E) HAS ALL SYSTEMS 'GO'
-         AGAIN.
+      RUNS OUT OF ENERGY, OR NEEDS TO REGENERATE ALL SYSTEMS, ONE MOVES TO A
+      QUADRANT WHICH INCLUDES A BASE, IONS NEXT TO THAT BASE (B) AT WHICH TIME
+      THE BASE SELF-DESTRUCTS AND THE ENTERPRISE (E) HAS ALL SYSTEMS 'GO'
+      AGAIN.
 
-           TO PLAY:
-          1.THE COMMANDS CAN BE OBTAINED BY TYPING A '0' (ZERO) AND RETURN.
-           THEY ARE:
-               1. PROPULSION           2.REGENERATE
-               3. LONG RANGE SENSORS   4. PHASERS
-               5. PHOTON TORPEDOES     6. GALAXY RECORD
-               7. COMPUTER             8. PROBE
-               9. SHIELD ENERGY        10.DAMAGE REPORT
-               11.LOAD PHOTON TORPEDOES
-          2.THE COMANDS ARE INVOKED BY TYPING 1HE NUMBER REFERING TO THEM
-               FOLLOWED BY A 'RETURN'.
-               A.IF RESPONSE IS 1 THE COMPUTER WILL ASK WARP OR ION AND
-                     EXPECTS 'W' IF ONE WANTS TO TRAVEL IN THE GALAXY
-                 BETWEEN QUADRANTS AND AN 'I' IF ONE WANTS ONLY
-                 INTERNAL QUADRANT TRAVEL.
-                 DURATION OF WARP FACTOR IS THE NUMBER OF SPACES OR
-                 QUADRANTS THE ENTERPRISE WILL MOVE.
-                 COURSE IS COMPASS READING IN DEGREES FOR THE DESI-
-                 RED DESTINATION.
-               B.A 2 REGENERATES THE ENERGY AT 1HE EXPENSE OF TIME.
-               C.A 3 GIVES THE CONTENTS OF THE IMMEDIATE. ADJACENT QUADRANTS.
-                     THE GALAXY IS WRAP-AROUND IN ALL DIRECTIONS.
-               D.4 FIRES PHASERS AT THE EXPENSE OF AVAILABLE ENERGY.
-               E.5 INITIATES A SET OF QUESTIONS FOR TORPEDO FIRING.
-                     THEY CAN BE FIRED AUTOMATICALLY IF THEY HAVE
-                     BEEN LOCKED ON TARGET WHILE IN THE COMPUTER
-                     MODE, OR MAY BE FIRED MANUALLY IF THE TRAGECTORY ANGLE
-                     IS KNOWN.
-               F.6, 8 AND 10 ALL GIVE INFORMATION ABOUT THE STATUS OF THE SHIP
-                     AND ITS ENVIRONMENT.
-               G.9 SETS THE SHIELD ENERGY/AVAILABLE ENERGY RATIO.
-               H.11 ASKS FOR INFORMATION ON LOADING AND UNLOADING OF
-                     PHOTON TORPEDOES AT THE ESPENSE OF AVAILABLE ENERGY.
-                           THE ANSWER SHOULD BE A SIGNED NUMBER. FOR EXAMPLE
-                           +5 OR -2.
-               I. 7 ENTERS A COMPUTER WHICH WILL RESPOND TO THE FOLLOWING
-                     INSTRUCTIONS:
+        TO PLAY:
+       1.THE COMMANDS CAN BE OBTAINED BY TYPING A '0' (ZERO) AND RETURN.
+        THEY ARE:
+                     1. PROPULSION           2.REGENERATE
+                     3. LONG RANGE SENSORS   4. PHASERS
+                     5. PHOTON TORPEDOES     6. GALAXY RECORD
+                     7. COMPUTER             8. PROBE
+                     9. SHIELD ENERGY        10.DAMAGE REPORT
+                     11.LOAD PHOTON TORPEDOES
+       2.THE COMANDS ARE INVOKED BY TYPING 1HE NUMBER REFERING TO THEM
+             FOLLOWED BY A 'RETURN'.
+             A.IF RESPONSE IS 1 THE COMPUTER WILL ASK WARP OR ION AND
+                    EXPECTS 'W' IF ONE WANTS TO TRAVEL IN THE GALAXY
+                    BETWEEN QUADRANTS AND AN 'I' IF ONE WANTS ONLY
+                    INTERNAL QUADRANT TRAVEL.
+                    DURATION OF WARP FACTOR IS THE NUMBER OF SPACES OR
+                    QUADRANTS THE ENTERPRISE WILL MOVE.
+                    COURSE IS COMPASS READING IN DEGREES FOR THE DESI-
+                    RED DESTINATION.
+             B.A 2 REGENERATES THE ENERGY AT 1HE EXPENSE OF TIME.
+             C.A 3 GIVES THE CONTENTS OF THE IMMEDIATE. ADJACENT QUADRANTS.
+                    THE GALAXY IS WRAP-AROUND IN ALL DIRECTIONS.
+             D.4 FIRES PHASERS AT THE EXPENSE OF AVAILABLE ENERGY.
+             
+             
+             E.5 INITIATES A SET OF QUESTIONS FOR TORPEDO FIRING.
+                    THEY CAN BE FIRED AUTOMATICALLY IF THEY HAVE
+                    BEEN LOCKED ON TARGET WHILE IN THE COMPUTER
+                    MODE, OR MAY BE FIRED MANUALLY IF THE TRAGECTORY ANGLE
+                    IS KNOWN.
+            F.6, 8 AND 10 ALL GIVE INFORMATION ABOUT THE STATUS OF THE SHIP
+                    AND ITS ENVIRONMENT.
+           G.9 SETS THE SHIELD ENERGY/AVAILABLE ENERGY RATIO.
+           H.11 ASKS FOR INFORMATION ON LOADING AND UNLOADING OF
+                    PHOTON TORPEDOES AT THE ESPENSE OF AVAILABLE ENERGY.
+                            THE ANSWER SHOULD BE A SIGNED NUMBER. FOR EXAMPLE
+                            +5 OR -2.
+           I. 7 ENTERS A COMPUTER WHICH WILL RESPOND TO THE FOLLOWING
+                   INSTRUCTIONS:
                            1. COMPUTE COURSE   2.LOCK PHASERS
                            3.LOCK PHOTON TORPEDOES
                            4.LOCK COURSE       5. COMPUTE TREJECTORY
                            6.STATUS            7. RETURN TO COMAND MODE
-                     IN THE FIRST FIVE ONE WILL HAVE TO GIVE COORDINATES.
-                     COORDINATES ARE GIVEN IN MATHMATICAL NOTATION WITH
-                     THE EXCEPTION THAT THE 'Y' VALUE IS GIVEN FIRST.
-                     AN EXAMPLE WOULD BE 'Y,X'
-                     COURSE OR TRAJECTORY:
+                   IN THE FIRST FIVE ONE WILL HAVE TO GIVE COORDINATES.
+                   COORDINATES ARE GIVEN IN MATHMATICAL NOTATION WITH
+                   THE EXCEPTION THAT THE 'Y' VALUE IS GIVEN FIRST.
+                   AN EXAMPLE WOULD BE 'Y,X'
+                   
+                   COURSE OR TRAJECTORY:
 
-                                     0
-                                     |
-                                     |
-                                     |
-                                     |
-                     270-------------+---------------90
-                                     |
-                                     |
-                                     |
-                                     |
-                                    180
--.-.-.-.-.-.-.- THIS EXPLANATION WAS WRITTEN BY ELWOOD -.-.-.-.-.-.-.-.-
-                          NOT RESPONSIBLE FOR
-                                ERRORS        
-```
+                                   0
+                                   |
+                                   |
+                                   |
+                                   |
+                   270-------------+---------------90
+                                   |
+                                   |
+                                   |
+                                   |
+                                  180
+   -.-.-.-.-.-.-.- THIS EXPLANATION WAS WRITTEN BY ELWOOD -.-.-.-.-.-.-.-.-
+                           NOT RESPONSIBLE FOR
+                                   ERRORS        
+```***
