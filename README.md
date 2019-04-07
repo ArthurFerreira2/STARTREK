@@ -6,9 +6,7 @@
 ![screenshoot](startrek.bmp)
 
 
-This is the source code of one of the oldest game for the Apple II  
-and also one of the best text only STARTREK version one can play  
-it features animations and sounds !
+This is the source code of one of the oldest game for the Apple II and also one of the best text only STARTREK version one can play : it features animations and sounds !
 
 Needs the INTEGER BASIC ROMS.  
 **Note :** despite being able to run it, [reinette-II](https://github.com/ArthurFerreira2/reinette-II) does not support sound and [LinApple](https://github.com/linappleii/linapple) or [AppleWin](https://github.com/AppleWin/AppleWin) are recommended.
