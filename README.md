@@ -12,7 +12,7 @@ Needs the INTEGER BASIC ROMS.
 **Note :** despite being able to run it, [reinette-II](https://github.com/ArthurFerreira2/reinette-II) does not support sound and [LinApple](https://github.com/linappleii/linapple) or [AppleWin](https://github.com/AppleWin/AppleWin) are recommended.
 
 
-The original source embeded a binary routine at $3FA1 to play various sounds effects, followed by some misterious data :
+The original source embeded a binary routine at $3FA1 to play various sound effects, followed by some mysterious data :
 
 ```
 3FA1-   A0 32       LDY   #$32  
