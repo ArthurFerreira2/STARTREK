@@ -63,7 +63,7 @@ to set exactly where in memory this program is to run.
 
 ### From Apple II Reference Manual January 1978, page 14 :  
 
-***```
+```
        -.-.-.-.-.-.-.-.-    APPLE II  STARTREK VERSION  -.-.-.-.-.-.-.-.-.-.-
 
              THIS IS A SHORT DESCRIPTION OF HOW TO PLAY STARTREK ON THE
@@ -150,4 +150,6 @@ to set exactly where in memory this program is to run.
    -.-.-.-.-.-.-.- THIS EXPLANATION WAS WRITTEN BY ELWOOD -.-.-.-.-.-.-.-.-
                            NOT RESPONSIBLE FOR
                                    ERRORS        
-```***
+```
+
+
