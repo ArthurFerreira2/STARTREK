@@ -12,11 +12,7 @@ Needs the INTEGER BASIC ROMS.
 **Note :** despite being able to run it, [reinette-II](https://github.com/ArthurFerreira2/reinette-II) does not support sound and [LinApple](https://github.com/linappleii/linapple) or [AppleWin](https://github.com/AppleWin/AppleWin) are recommended.
 
 
-First type : `HIMEM: 16384`
-
-Then copy paste the INTERGER BASIC source code  
-
-The original source embeded a binary routine at $3FA1 to play various sounds effects :
+The original source embeded a binary routine at $3FA1 to play various sounds effects, followed by some misterious data :
 
 ```
 3FA1-   A0 32       LDY   #$32  
@@ -32,16 +28,24 @@ The original source embeded a binary routine at $3FA1 to play various sounds eff
 3FB3-   88          DEY  
 3FB4-   D0 ED       BNE   $3FA3  
 3FB6-   60          RTS  
+<some data following>
 ```
 
-Load it from the monitor `CALL -151` using :  
+First, you have to load it from the monitor (`CALL -151`) using :  
 
 ```
-3FA1 : A0 32 A2 00 8A 18 E9 01 D0 FC 8D 30 C0 E8 E0 03 D0 F2 88 D0 ED 60  
+3FA1: A0 32 A2 00 8A 18 E9 01 D0 FC 8D 30 C0 E8
+:E0 03 D0 F2 88 D0 ED 60 EB 60 C1 01 45 20 4E 5D
+:B4 B4 B4 B4 B4 B4 B4 B4 5A 87 99 A2 A6 A9 AB AC
+:5A 75 87 92 99 9E A2 A4 5A 6C 7C 87 8F 95 99 9D
+:5A 68 75 7F 87 8D 92 96 5A 65 70 79 81 87 8C 90
+:5A 63 6C 75 7C 82 87 8B 5A 62 6A 71 78 7E 83 87
+:01
 ```
 
-Then return to basic by hitting `CTRL-C` and `ENTER` and type `RUN`  
-
+Then jump to basic by hitting `CTRL-B` and `ENTER` 
+Copy paste the INTERGER BASIC source code  
+and type `RUN`  
 
 
 ### From [Apple II Reference Manual January 1978, page 3](https://archive.org/details/Apple_II_Redbook/page/n5) :
