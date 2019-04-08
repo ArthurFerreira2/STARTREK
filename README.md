@@ -153,8 +153,10 @@ to set exactly where in memory this program is to run.
 
 
 One year later, in January 1979, the program was renamed APPLETREK and modified to remove any reference to the Star Trek franchise :
+
 - DILITHIUM => TRILITHIUM
 - KLINGONS => KLARNONS
-- ENTERPRISE => ENDEAVOR  
+- ENTERPRISE => ENDEAVOR
+
 The binary portion of the game remained the same
 
